@@ -1,0 +1,19 @@
+/* Footer.css */
+
+.footer-container {
+  background-color: #000; /* Черный фон футера */
+  color: #fff; /* Белый текст */
+  padding: 1%; /* Отступы в процентах */
+  text-align: center; /* Центрирование текста */
+  position: relative; /* Для позиционирования псевдоэлемента */
+  width: 100%; /* Занимаем всю ширину экрана */
+  margin-top: calc(1vh); /* Отступ от текста страницы в 1% от высоты экрана */
+  display: flex;
+  justify-content: center;
+}
+
+.footer-copyright {
+  margin-top: 0.1%; /* Отступ сверху для копирайта в процентах */
+}
+
+
